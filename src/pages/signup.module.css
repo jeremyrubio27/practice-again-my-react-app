@@ -1,0 +1,76 @@
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    
+    .form-container p {
+        font-family: "Roboto";
+        color: rgba(0, 0, 0, 0.808);
+    }
+    
+    .form-card a{
+        text-decoration: none;  
+        color:#4285F4;
+        font-family: "Roboto";
+    }
+    
+    .form-forgot-password{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .form-container input{
+        height: 30px;
+        width: 380px;
+        padding: 5px;
+        border: 1px solid hsla(0, 0%, 60%, 0.63);
+        border-radius: 5px;
+        outline-color:#4286f4b2;
+    }
+    
+    .form-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    max-width:  450px;
+    border: 1px solid hsla(0, 0%, 80%, 0.808);
+    border-radius: 5px;
+    }
+    
+    .form-sign-up{
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 500;
+    }
+    
+    .form-login-button{
+        margin-top: 15px;
+        padding: 15px;
+        width: 100%;
+        color: white;
+        font-family: "Roboto";
+        font-size: 16px;
+        border: none;
+        background-color: #4285F4;
+        border-radius: 5px;
+    }
+    
+    .form-need-an-account{
+        font-family: "Roboto";
+        color: rgba(0, 0, 0, 0.808);
+        margin-bottom: 20px;
+    }
+    
+    .form-need-an-account a{
+        text-decoration: none;
+        color: #4285F4;
+
+    }
